@@ -93,8 +93,16 @@ val sampleMaze = Maze(
         Wall(780f, 500f, 20f, 300f),      // Vertical wall
         Wall(600f, 800f, 200f, 20f),      // Horizontal wall
         Wall(600f, 800f, 20f, 200f),      // Vertical wall
-        Wall(780f, 800f, 20f, 200f)       // Vertical wall
-    ),
+        Wall(780f, 800f, 20f, 200f),       // Vertical wall
+        Wall(600f, 600f, 150f, 20f),
+        Wall(600f, 600f, 20f, 150f),
+        Wall(730f, 600f, 20f, 150f),
+        Wall(600f, 750f, 150f, 20f),
+        Wall(400f, 1200f, 450f, 20f),
+
+
+
+        ),
     entrance = Offset(30f, 30f),         // Entrance at the top-left corner
     exit = Offset(950f, 1450f)           // Exit at the bottom-right corner
 )
